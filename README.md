@@ -2,7 +2,7 @@
 
 Портфолио создается в учебных целях:
 
-[Portfolio](http://makysheva.github.io/app/index.html)
+[Portfolio](https://makysheva.github.io/makysheva/)
 
 Используемые библиотеки:
 - gulp
