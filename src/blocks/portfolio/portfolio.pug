@@ -1,0 +1,8 @@
+mixin portfolio(item)
+    li.portfolio__item
+        a(class="protfoplio__link" href=`${item.srcPortfolio}` target="_blank")
+            img(class="portfolio__img" src=require(`../../assets/images/${item.image}`).default alt=`${item.alt}`)
+        section.portfolio__descr
+            span.descr__title #{item.title}
+            span.descr__line
+            span.descr__text #{item.text}

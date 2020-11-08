@@ -1,0 +1,64 @@
+extends ../../base
+include ../../blocks/header/menu/menu
+include ../../blocks/header/socials/socials
+include ../../blocks/portfolio/portfolio
+
+block title
+    | Portfolio
+
+block index-page
+    .header__wrapper#main
+        section.logo__container
+            img(class='logo' src=require('../../assets/images/logo.svg').default alt='logo')
+
+        section.header__container
+            .menu__container
+                nav.menu
+                    ul.menu__list
+                        -
+                            let menuList = [
+                                {title: "Главная", link: "#main"},
+                                {title: "Мои работы", link: "#portfolio"},
+                                {title: "Контакты", link: "#contacts"},
+                            ]
+
+                        each element in menuList
+                            +elementMenu(element)
+
+            .header__description
+                h1.header__title Добро пожаловать!
+                p.header__text Всем Мира! Изучаю Frontend-разработку, люблю изучать досконально. Исполнительна. Упорна. Трудолюбива.
+                p.header__subtext Мои проффесиональные навыки: html, css, scss, js, git, webpack, pug, gulp.
+
+            .socials
+                +socials('telegram-icon', 'telegram.svg', 'telegram')
+                +socials('github-icon', 'github.svg', 'github')
+                +socials('linkedin-icon', 'linkedin.svg', 'linkedin')
+
+    main.portfolio__wrapper#portfolio
+        h2.portfolio__title Мои работы
+        section.portfolio__list
+            ul.portfolio__items
+                -
+                    let portfolioItems = [
+                        {image: "toxin.png", alt: "toxin", srcPortfolio: 'https://makysheva.github.io/toxin/build/', title: "Toxin", text: "Pug/Scss/Webpack/Build"},
+                        {image: "freehand.png", alt: "freehand", srcPortfolio: 'https://makysheva.github.io/freehand/build/index.html', title: "Freehand", text: "Pug/Scss/Webpack/Build"},
+                        {image: "master-barakat.png", alt: "master-barakat", srcPortfolio: 'https://umelyi-master.ru/', title: "Умелый Мастер", text: "Pug/Scss/Webpack/Build"},
+                        {image: "tinyone.png", alt: "tinyone", srcPortfolio: 'https://makysheva.github.io/tinyone/app/', title: "Tinyone", text: "Html/Sass/Gulp"},
+                        {image: "sarajevo.png", alt: "sarajevo", srcPortfolio: 'https://makysheva.github.io/sarajevo/', title: "Sarajevo", text: "Html/Css"},
+                    ]
+
+                each item in portfolioItems
+                    +portfolio(item)
+
+    footer.footer
+        section.footer__container
+            .footer__container--gray
+                .socials
+                    +socials('telegram-icon', 'telegram.svg', 'telegram')
+                    +socials('github-icon', 'github.svg', 'github')
+                    +socials('linkedin-icon', 'linkedin.svg', 'linkedin')
+            .footer__container--black
+                .copyright
+                    span.copyright__text Made by&#160;
+                        a(href="https://t.me/makysheva" class="copyright__link" target="_blank") Makysheva Aliya

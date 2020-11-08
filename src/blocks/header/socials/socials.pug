@@ -1,0 +1,3 @@
+mixin socials(className, image, alt)
+    a(class="socials__link")
+        img(class= 'socials__icon ' + className, src=require(`../../assets/images/${image}`).default alt=`${alt}`)

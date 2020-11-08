@@ -1,16 +1,30 @@
-### Hi there 👋
+# Портфолио Макышевой Алии - 2020
 
-<!--
-**makysheva/makysheva** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Портфолио создается в учебных целях:
 
-Here are some ideas to get you started:
+[Portfolio](http://makysheva.github.io/app/index.html)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Используемые библиотеки:
+- gulp
+- webpack
+- pug
+- scss
+
+Используемые плагины в макете toxin:
+- air-datepicker для выпадающего и открытого календаря
+- ion-range-slider для слайдера-ползунка
+- chart.js для круговой диаграммы
+
+## Макеты:
+
+[Saraevo](https://makysheva.github.io/sarajevo/index.html)
+
+[Tinyone](https://makysheva.github.io/tinyone/app/index.html)
+
+[Waxom](https://makysheva.github.io/waxom/build/index.html)
+
+[Toxin](https://makysheva.github.io/toxin/build/index.html)
+
+[Freehand](https://makysheva.github.io/freehand/build/index.html)
+
+[Пример использования объекта LocalStorage](https://makysheva.github.io/examples/order-form/order-form.html)

@@ -1,0 +1,22 @@
+.menu{
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    &__container{
+        padding-top: 34px;
+        margin-bottom: 192px;
+    }
+
+    &__link{
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #000;
+
+        &:hover{
+            box-shadow: 0px 0px 9px 2px #8b8989;
+        }
+    }
+}
