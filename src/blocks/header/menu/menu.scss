@@ -8,6 +8,10 @@
     &__container{
         padding-top: 34px;
         margin-bottom: 192px;
+
+        @media(max-width: 800px){
+            margin-bottom: 100px;
+        }
     }
 
     &__link{

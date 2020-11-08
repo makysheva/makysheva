@@ -8,6 +8,10 @@
         display: inherit;
         align-items: center;
         justify-content: center;
+
+        @media(max-width: 800px){
+            max-width: 100%;
+        }
     }
 }
 
@@ -17,6 +21,11 @@
         flex-direction: row;
         justify-content: space-between;
         height: 640px;
+
+        @media(max-width: 800px){
+            flex-direction: column;
+            height: auto;
+        }
     }
 
     &__container{
@@ -32,6 +41,10 @@
         line-height: 24px;
         padding-right: 147px;
         margin-bottom: 70px;
+
+        @media(max-width: 800px){
+            padding-right: 20px;
+        }
     }
 
     &__title{
@@ -118,6 +131,10 @@
 }
 
 .copyright{
+    @media(max-width: 800px){
+        padding-left: 12px;
+    }
+
     &__text{
         color: #f1f1f1;
     }

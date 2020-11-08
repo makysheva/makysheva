@@ -2,5 +2,9 @@
     &__item{
         overflow: hidden;
         position: relative;
+
+        @media(max-width: 800px){
+            margin: auto 26px 26px;
+        }
     }
 }

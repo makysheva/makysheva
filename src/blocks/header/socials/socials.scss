@@ -3,6 +3,11 @@
     flex-direction: row;
     padding-left: 53px;
 
+    @media(max-width: 800px){
+        padding-bottom: 20px;
+        margin-right: 10px;
+    }
+
     &__link{
         display: inline-flex;
         max-width: 45px;
