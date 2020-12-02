@@ -1,3 +1,3 @@
-mixin socials(className, image, alt)
-    a(class="socials__link")
+mixin socials(className, image, alt, href)
+    a(class="socials__link" href= href, target="_blank")
         img(class= 'socials__icon ' + className, src=require(`../../assets/images/${image}`).default alt=`${alt}`)
