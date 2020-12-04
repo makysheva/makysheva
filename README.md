@@ -17,13 +17,17 @@
 -   ion-range-slider для слайдера-ползунка
 -   chart.js для круговой диаграммы
 
+Используемые плагины в макете market:
+
+-   owl-carousel для 4-х слайдеров
+
 ## Макеты:
+
+[Market](https://makysheva.github.io/market/build/index.html)
 
 [Toxin](https://makysheva.github.io/toxin/build/index.html)
 
 [Freehand](https://makysheva.github.io/freehand/build/index.html)
-
-<!-- [Market](https://makysheva.github.io/market/build/index.html) -->
 
 [Sarajevo](https://makysheva.github.io/sarajevo/index.html)
 
