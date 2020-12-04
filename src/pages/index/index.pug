@@ -11,6 +11,24 @@ block index-page
         section.logo__container
             img(class='logo' src=require('../../assets/images/logo.svg').default alt='logo')
 
+            .header__burger
+                span
+            .socials.socials__mobile
+                +socials('telegram-icon', 'telegram.svg', 'telegram', 'https://t.me/makysheva')
+                +socials('github-icon', 'github.svg', 'github', 'https://github.com/makysheva')
+                +socials('linkedin-icon', 'linkedin.svg', 'linkedin', 'https://www.linkedin.com/in/aliya-m-001014180/')
+
+            ul.menu__list--mobile
+                -
+                    let menuListMobile = [
+                        {title: "Главная", link: "#main"},
+                        {title: "Мои работы", link: "#portfolio"},
+                        {title: "Контакты", link: "#contacts"},
+                    ]
+
+                each element in menuListMobile
+                    +elementMenu(element)
+
         section.header__container
             .menu__container
                 nav.menu
@@ -31,9 +49,9 @@ block index-page
                 p.header__subtext Мои проффесиональные навыки: html, css, scss, js, git, webpack, pug, gulp.
 
             .socials
-                +socials('telegram-icon', 'telegram.svg', 'telegram')
-                +socials('github-icon', 'github.svg', 'github')
-                +socials('linkedin-icon', 'linkedin.svg', 'linkedin')
+                +socials('telegram-icon', 'telegram.svg', 'telegram', 'https://t.me/makysheva')
+                +socials('github-icon', 'github.svg', 'github', 'https://github.com/makysheva')
+                +socials('linkedin-icon', 'linkedin.svg', 'linkedin', 'https://www.linkedin.com/in/aliya-m-001014180/')
 
     main.portfolio__wrapper#portfolio
         h2.portfolio__title Мои работы
@@ -44,14 +62,15 @@ block index-page
                         {image: "toxin.png", alt: "toxin", srcPortfolio: 'https://makysheva.github.io/toxin/build/', title: "Toxin", text: "Pug/Scss/Webpack/Build"},
                         {image: "freehand.png", alt: "freehand", srcPortfolio: 'https://makysheva.github.io/freehand/build/index.html', title: "Freehand", text: "Pug/Scss/Webpack/Build"},
                         {image: "master-barakat.png", alt: "master-barakat", srcPortfolio: 'https://umelyi-master.ru/', title: "Умелый Мастер", text: "Pug/Scss/Webpack/Build"},
-                        {image: "tinyone.png", alt: "tinyone", srcPortfolio: 'https://makysheva.github.io/tinyone/app/', title: "Tinyone", text: "Html/Sass/Gulp"},
-                        {image: "sarajevo.png", alt: "sarajevo", srcPortfolio: 'https://makysheva.github.io/sarajevo/', title: "Sarajevo", text: "Html/Css"},
+                        {image: "market.png", alt: "market", srcPortfolio: 'https://makysheva.github.io/market/build/index.html', title: "My Market", text: "Pug/Scss/Webpack/Build"}
+                        //- {image: "tinyone.png", alt: "tinyone", srcPortfolio: 'https://makysheva.github.io/tinyone/app/', title: "Tinyone", text: "Html/Sass/Gulp"},
+                        //- {image: "sarajevo.png", alt: "sarajevo", srcPortfolio: 'https://makysheva.github.io/sarajevo/', title: "Sarajevo", text: "Html/Css"},
                     ]
 
                 each item in portfolioItems
                     +portfolio(item)
 
-    footer.footer
+    footer.footer#contacts
         section.footer__container
             .footer__container--gray
                 .socials
