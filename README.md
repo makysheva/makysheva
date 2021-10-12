@@ -1,9 +1,3 @@
-# Портфолио Макышевой Алии - 2020
-
-Портфолио создается в учебных целях:
-
-[Portfolio](https://makysheva.github.io/makysheva/build/index.html)
-
 Используемые библиотеки:
 
 -   gulp
