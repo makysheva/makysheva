@@ -1,36 +1,13 @@
-# Портфолио Макышевой Алии - 2020
+# Welcome! I'm Makysheva Aliya
 
-Портфолио создается в учебных целях:
+## React Frontend Developer
 
-[Portfolio](https://makysheva.github.io/makysheva/build/index.html)
-
-Используемые библиотеки:
-
--   gulp
--   webpack
--   pug
--   scss
-
-Используемые плагины в макете toxin:
-
--   air-datepicker для выпадающего и открытого календаря
--   ion-range-slider для слайдера-ползунка
--   chart.js для круговой диаграммы
-
-Используемые плагины в макете market:
-
--   owl-carousel для 4-х слайдеров
-
-## Макеты:
-
-[Market](https://makysheva.github.io/market/build/index.html)
-
-[Toxin](https://makysheva.github.io/toxin/build/index.html)
-
-[Freehand](https://makysheva.github.io/freehand/build/index.html)
-
-[Sarajevo](https://makysheva.github.io/sarajevo/index.html)
-
-[Tinyone](https://makysheva.github.io/tinyone/app/index.html)
-
-[Waxom](https://makysheva.github.io/waxom/build/index.html)
+# Tools:
+![React](https://img.shields.io/badge/-React-292D2E?style=for-the-badge&logo=React>)
+![JS](https://img.shields.io/badge/-Javascript-FEE400?style=for-the-badge&logo=JS>)
+![Scss](https://img.shields.io/badge/-Scss-CA6799?style=for-the-badge&logo=Scss>)
+![Webpack](https://img.shields.io/badge/-Webpack-1A7ABF?style=for-the-badge&logo=Webpack>)
+![Gulp](https://img.shields.io/badge/-Gulp-CE4646?style=for-the-badge&logo=Gulp>)
+![Pug](https://img.shields.io/badge/-Pug-383A3E?style=for-the-badge&logo=Pug>)
+![HTML](https://img.shields.io/badge/-HTML-E44D25?style=for-the-badge&logo=HTML>)
+![CSS](https://img.shields.io/badge/-CSS-1573B5?style=for-the-badge&logo=CSS>)
