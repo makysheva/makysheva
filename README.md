@@ -1,8 +1,24 @@
-# Welcome! I'm Makysheva Aliya
+**Welcome! I'm Makysheva Aliya**  
 
-## React Frontend Developer
 
-# Tools:
+**Frontend:**  
+
++ React, TypeScript, JavaScript (ES6+)
++ Redux, Redux Thunk
++ React Hook Form
++ ESLint, Prettier
++ SCSS / styled-components / CSS Modules
++ PugJS (Jade)
++ Material UI, Ant Design
++ Webpack / Gulp
+
+**Другие скиллы:**  
+
++ Git / GitHub / GitLab
++ BEM (CSS)
+
+**Tools:**  
+
 ![React](https://img.shields.io/badge/-React-292D2E?style=for-the-badge&logo=React>)
 ![JS](https://img.shields.io/badge/-Javascript-FEE400?style=for-the-badge&logo=JS>)
 ![Scss](https://img.shields.io/badge/-Scss-CA6799?style=for-the-badge&logo=Scss>)
