@@ -16,6 +16,7 @@
 
 + Git / GitHub / GitLab
 + BEM (CSS)
++ ClickUp / Jira / Trello
 
 **Tools:**  
 
