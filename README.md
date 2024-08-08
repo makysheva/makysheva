@@ -4,6 +4,7 @@
 **Frontend:**  
 
 + React, TypeScript, JavaScript (ES6+)
++ Tanstack / React-Query / React-Router
 + Redux, Redux Thunk
 + React Hook Form
 + ESLint, Prettier
@@ -16,7 +17,7 @@
 
 + Git / GitHub / GitLab
 + BEM (CSS)
-+ ClickUp / Jira / Trello
++ ClickUp / Jira / Trello / Notion
 
 **Tools:**  
 
